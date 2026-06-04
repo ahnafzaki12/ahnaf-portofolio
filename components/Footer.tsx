@@ -38,7 +38,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-xs text-white/50 sm:absolute sm:left-1/2 sm:-translate-x-1/2">
-          Copyright 2024© Ahnaf Zaki
+          Copyright 2023© Ahnaf Zaki
         </p>
 
         {/* Social links */}
