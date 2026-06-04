@@ -20,7 +20,7 @@ const services = [
       "Designing and training neural networks for complex pattern recognition — including computer vision, natural language processing, and generative AI applications.",
     images: {
       main: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-      top: "https://images.unsplash.com/photo-1535378915022-45ae272e1325?w=600&q=80",
+      top: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80",
       bottom: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80",
     },
   },
