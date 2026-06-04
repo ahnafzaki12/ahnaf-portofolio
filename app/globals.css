@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --portfolio-bg: #0f0f0f;
+  --portfolio-text: #c4c5c4;
+  --portfolio-muted: #889697;
+  --portfolio-accent: #472e27;
+  --portfolio-accent-soft: #665665;
+  --portfolio-surface: #4b4849;
+  --portfolio-bg-text: #525e64;
+  --portfolio-border: #7b899b;
+  --portfolio-secondary: #889697;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-portfolio-bg: var(--portfolio-bg);
+  --color-portfolio-text: var(--portfolio-text);
+  --color-portfolio-muted: var(--portfolio-muted);
+  --color-portfolio-accent: var(--portfolio-accent);
+  --color-portfolio-accent-soft: var(--portfolio-accent-soft);
+  --color-portfolio-surface: var(--portfolio-surface);
+  --color-portfolio-bg-text: var(--portfolio-bg-text);
+  --color-portfolio-border: var(--portfolio-border);
+  --color-portfolio-secondary: var(--portfolio-secondary);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-accent: var(--font-accent-script);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--portfolio-bg);
+  color: var(--portfolio-text);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
