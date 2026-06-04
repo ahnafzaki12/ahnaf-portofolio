@@ -66,8 +66,8 @@ export default function Services() {
   const active = services[activeIndex];
 
   return (
-    <section id="services" className="relative py-24 md:py-32">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 md:px-12 lg:grid-cols-2 lg:gap-16 lg:px-16">
+    <section id="services" className="relative py-12 md:py-32">
+      <div className="mx-auto grid max-w-7xl gap-8 px-6 md:gap-12 md:px-12 lg:grid-cols-2 lg:gap-16 lg:px-16">
         {/* Left — title & accordion */}
         <div className="flex flex-col justify-center">
           <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight tracking-tighter text-white">
@@ -120,7 +120,7 @@ export default function Services() {
           <div className="group relative w-full overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-3 shadow-[0_0_60px_rgba(79,47,109,0.25)] backdrop-blur-sm transition-all duration-500 hover:border-portfolio-accent/40 hover:shadow-[0_0_80px_rgba(79,47,109,0.35)]">
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-portfolio-accent/10 via-transparent to-portfolio-accent-soft/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-            <div className="relative grid h-[320px] grid-cols-2 grid-rows-2 gap-2 sm:h-[380px] md:h-[420px]">
+            <div className="relative grid h-[240px] grid-cols-2 grid-rows-2 gap-2 sm:h-[320px] md:h-[420px]">
               <div className="relative row-span-2 overflow-hidden rounded-2xl">
                 <Image
                   key={active.images.main}

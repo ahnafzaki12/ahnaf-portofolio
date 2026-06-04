@@ -38,7 +38,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen flex-col justify-center"
+      className="relative flex min-h-0 flex-col justify-center md:min-h-screen"
     >
       <style>{`
         @keyframes float {
@@ -48,18 +48,18 @@ export default function Hero() {
         .animate-float { animation: float 6s ease-in-out infinite; }
       `}</style>
 
-      <div className="mx-auto flex max-w-6xl w-full min-h-screen items-center justify-between px-6 md:px-12 lg:px-16 pt-20 md:pt-20">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-6 pb-12 pt-24 md:min-h-screen md:flex-row md:items-center md:justify-between md:gap-8 md:px-12 md:pb-0 md:pt-20 lg:px-16">
         {/* LEFT — text content */}
-        <div className="flex flex-1 flex-col gap-7">
+        <div className="flex w-full flex-1 flex-col gap-5 md:gap-7">
           <span className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
             Information Systems Student
           </span>
 
-          <h1 className="text-[clamp(2.8rem,6vw,5.5rem)] font-bold leading-[0.92] tracking-tighter text-white">
+          <h1 className="text-[clamp(2.2rem,10vw,5.5rem)] font-bold leading-[0.92] tracking-tighter text-white">
             Ahnaf Zaki
           </h1>
 
-          <p className="max-w-sm text-sm leading-relaxed text-portfolio-muted">
+          <p className="max-w-sm text-sm leading-relaxed text-portfolio-muted md:max-w-md">
             My name is{" "}
             <span className="text-portfolio-text font-medium">Ahnaf Zaki</span>.
             I am an information system student passionate about data science and
@@ -92,8 +92,8 @@ export default function Hero() {
         </div>
 
         {/* RIGHT — profile image in card display */}
-        <div className="hidden md:flex flex-1 items-center justify-end">
-          <div className="group relative w-full max-w-[340px] rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur-md overflow-hidden transition-all duration-500 hover:border-portfolio-accent/40 hover:shadow-[0_0_60px_rgba(79,47,109,0.3)]">
+        <div className="flex w-full flex-1 items-center justify-center md:justify-end">
+          <div className="group relative w-full max-w-[260px] rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur-md overflow-hidden transition-all duration-500 hover:border-portfolio-accent/40 hover:shadow-[0_0_60px_rgba(79,47,109,0.3)] sm:max-w-[300px] md:max-w-[340px] md:p-5">
 
             {/* Card inner glow */}
             <div className="absolute inset-0 bg-gradient-to-br from-portfolio-accent/10 via-transparent to-portfolio-accent-soft/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -117,7 +117,7 @@ export default function Hero() {
                 alt="Ahnaf Zaki — Information System student"
                 fill
                 priority
-                sizes="(max-width: 768px) 0px, 22rem"
+                sizes="(max-width: 768px) 260px, 22rem"
                 className="relative z-10 object-contain object-bottom"
               />
             </div>
