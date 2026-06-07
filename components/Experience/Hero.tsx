@@ -1,15 +1,16 @@
 'use client';
 
 import React from 'react';
+import { type FilterValue } from '@/data/experienceData';
+
+export type { FilterValue };
 
 const FILTERS = [
     { value: 'all', label: 'All Experience' },
     { value: 'professional', label: 'Work Experience' },
     { value: 'extracurricular', label: 'Organizations' },
     { value: 'education', label: 'Training & Bootcamps' },
-] as const;
-
-export type FilterValue = typeof FILTERS[number]['value'];
+] as const satisfies ReadonlyArray<{ value: FilterValue; label: string }>;
 
 interface ExperienceHeroProps {
     active: FilterValue;
