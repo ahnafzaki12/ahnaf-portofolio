@@ -9,9 +9,9 @@ const services = [
     description:
       "Building predictive models and intelligent systems that learn from data — from classification and regression to recommendation engines and automated decision-making pipelines.",
     images: {
-      main: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
+      main: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
       top: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80",
-      bottom: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80",
+      bottom: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80",
     },
   },
   {
@@ -19,7 +19,7 @@ const services = [
     description:
       "Designing and training neural networks for complex pattern recognition — including computer vision, natural language processing, and generative AI applications.",
     images: {
-      main: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+      main: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
       top: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80",
       bottom: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80",
     },
@@ -29,9 +29,9 @@ const services = [
     description:
       "Transforming raw data into meaningful insights through statistical analysis, visualization, and exploratory research to drive informed business and product decisions.",
     images: {
-      main: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-      top: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
-      bottom: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80",
+      main: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+      top: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80",
+      bottom: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80",
     },
   },
   {
@@ -39,9 +39,9 @@ const services = [
     description:
       "Crafting clean, scalable web applications and backend systems with modern frameworks — focused on performance, maintainability, and great user experiences.",
     images: {
-      main: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
-      top: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80",
-      bottom: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      main: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+      top: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80",
+      bottom: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80",
     },
   },
 ] as const;
