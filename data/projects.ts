@@ -1,0 +1,32 @@
+export const PROJECTS = [
+    {
+      id: 1,
+      title: "E-Commerce Analytics Dashboard",
+      description: "Sebuah platform web untuk melacak penjualan, metrik pengguna, dan performa produk secara real-time menggunakan grafik interaktif yang terintegrasi dengan sistem cloud.",
+      category: "web",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      tags: ["Next.js", "TailwindCSS", "Supabase", "Recharts"],
+      liveLink: "https://example.com",
+      githubLink: "https://github.com",
+    },
+    {
+      id: 2,
+      title: "Predictive Demand Forecasting",
+      description: "Model machine learning untuk memprediksi stok barang dagang bulanan berdasarkan data historis penjualan menggunakan algoritma LSTM dan diintegrasikan ke dashboard bisnis.",
+      category: "ai-ml",
+      image: "https://images.unsplash.com/photo-1527474305487-b87b222841cc?auto=format&fit=crop&w=800&q=80",
+      tags: ["Python", "TensorFlow", "Pandas", "Scikit-Learn"],
+      liveLink: "",
+      githubLink: "https://github.com",
+    },
+    {
+      id: 3,
+      title: "FitLife — Mobile Fitness Tracker",
+      description: "Aplikasi mobile pelacak aktivitas olahraga, kalori harian, dan jadwal workout dengan fitur integrasi gamifikasi dan sinkronisasi smartwatch.",
+      category: "mobile",
+      image: "https://images.unsplash.com/photo-1510017803434-a899398421b3?auto=format&fit=crop&w=800&q=80",
+      tags: ["React Native", "Expo", "Redux Toolkit", "Node.js"],
+      liveLink: "https://example.com",
+      githubLink: "https://github.com",
+    },
+  ];
