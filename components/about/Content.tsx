@@ -22,7 +22,7 @@ export default function AboutContent() {
           {/* LEFT: Biography */}
           <div className="flex flex-col gap-5 lg:col-span-6">
             <h2 className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
-              01 / Biography
+              Biography
             </h2>
             <div className="flex flex-col gap-4 text-sm leading-relaxed text-portfolio-muted">
               <p>
@@ -51,7 +51,7 @@ export default function AboutContent() {
           <div className="flex flex-col gap-6 lg:col-span-5 lg:col-start-8">
             <div className="flex flex-col gap-5">
               <h2 className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
-                02 / Tech Stack
+                Tech Stack
               </h2>
               
               {/* Data Science Category */}
@@ -98,7 +98,7 @@ export default function AboutContent() {
           {/* LEFT: Education Timeline (7/12) */}
           <div className="flex flex-col gap-6 lg:col-span-7">
             <h2 className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
-              03 / Education
+              Education
             </h2>
             <div className="relative border-l border-white/10 pl-5 ml-1 flex flex-col gap-2">
               {/* Timeline Bullet */}
@@ -124,7 +124,7 @@ export default function AboutContent() {
           {/* RIGHT: Project Counter Stat Box (4/12) */}
           <div className="flex flex-col gap-6 lg:col-span-4 lg:col-start-9">
             <h2 className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
-              04 / Showcase
+              Showcase
             </h2>
             <div className="group relative flex flex-col items-center justify-center rounded-2xl border border-white/5 bg-white/[0.01] p-6 text-center transition-all duration-300 hover:border-portfolio-accent/30 hover:bg-portfolio-accent/[0.02]">
               <span className="text-[clamp(2.5rem,6vw,4rem)] font-black leading-none tracking-tighter text-white group-hover:text-portfolio-accent-soft transition-colors">
@@ -149,7 +149,7 @@ export default function AboutContent() {
             {/* Left: Engagement CTA */}
             <div className="flex flex-col gap-4 md:col-span-7">
               <h2 className="text-xs font-semibold tracking-[0.2em] text-portfolio-muted uppercase">
-                05 / Collaboration
+                Collaboration
               </h2>
               <h3 className="text-2xl font-bold tracking-tight text-white md:text-3xl">
                 Interested in working together?
