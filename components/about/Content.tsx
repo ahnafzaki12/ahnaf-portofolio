@@ -36,13 +36,13 @@ export default function AboutContent() {
             {/* View CV Button */}
             <div className="mt-2">
               <a
-                href="/cv-ahnaf-zaki.pdf" // Put your CV pdf file inside public folder
+                href="/cv-ahnaf-zaki.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-5 py-2.5 text-xs tracking-wider text-white transition-all duration-300 hover:border-portfolio-accent/50 hover:bg-portfolio-accent/10 uppercase"
               >
                 <span>View CV</span>
-                <span className="text-portfolio-accent text-xs">↓</span>
+                <span className="text-portfolio-accent text-xs">↗</span>
               </a>
             </div>
           </div>
